@@ -4,6 +4,7 @@ const data = [
     name: "Jim",
     location: "",
     duration: "",
+    description: "",
     rating: 0
   },
   {
@@ -11,6 +12,7 @@ const data = [
     name: "Sarah",
     location: "",
     duration: "",
+    description: "",
     rating: 0
   },
   {
@@ -18,6 +20,7 @@ const data = [
     name: "Bella",
     location: "",
     duration: "",
+    description: "",
     rating: 0
   },
   {
@@ -25,6 +28,7 @@ const data = [
     name: "James",
     location: "",
     duration: "",
+    description: "",
     rating: 0
   },
   {
@@ -32,6 +36,7 @@ const data = [
     name: "Kaitlin",
     location: "",
     duration: "",
+    description: "",
     rating: 0
   }
 ];
