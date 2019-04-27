@@ -1,27 +1,29 @@
 import React from 'react';
 import data from "../data";
 import PostList from './PostList';
+import PostForm from './PostForm';
 
-export default class Content extends React.Component{
-  constructor(){
+export default class Content extends React.Component {
+  constructor() {
     super();
     this.state = {
       data: []
     }
   }
 
-  componentDidMount(){
+  componentDidMount() {
     this.setState({
       data: data
     })
   }
-   
+
   render() {
     console.log(this.state);
-    return(
+    return (
       <div className="content">
         <h1>From Content</h1>
-        <PostList data={data}/>
+        <PostList data={data} />
+        <PostForm />
       </div>
     )
   }
