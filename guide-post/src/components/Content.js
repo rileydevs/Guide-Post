@@ -1,10 +1,10 @@
 import React from 'react';
 import data from "../data";
+import PostList from './PostList';
 
 export default class Content extends React.Component{
   constructor(){
     super();
-
     this.state = {
       data: []
     }
@@ -17,9 +17,11 @@ export default class Content extends React.Component{
   }
    
   render() {
+    console.log(this.state);
     return(
       <div>
         <h1>From Content</h1>
+        <PostList data={data}/>
       </div>
     )
   }
