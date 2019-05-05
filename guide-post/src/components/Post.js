@@ -2,9 +2,10 @@ import React from 'react';
 
 const Post = props => {
   console.log(props);
-  return(
+  return (
     <div className="post">
-      <h1>Hello from Post</h1>
+      <h3>{props.post.title}</h3>
+      <p>{props.post.location}</p>
       <p>{props.post.name}</p>
     </div>
   )

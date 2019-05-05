@@ -1,44 +1,41 @@
 const data = [
   {
+    title: "Backpacking the Pacific Crest Trail",
     id: 1,
     name: "Jim",
-    location: "",
+    location: "Pacific North West",
     duration: "",
-    description: "",
+    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo nihil officiis impedit praesentium. Nobis eveniet, tempora suscipit minus quo ipsa nulla nam, voluptatem, nemo aut veritatis saepe ipsum iure. At?",
     rating: 0
   },
   {
+    title: "Backpacking the Greece National Pathway",
     id: 2,
     name: "Sarah",
-    location: "",
+    location: "Greece",
     duration: "",
-    description: "",
+    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo nihil officiis impedit praesentium. Nobis eveniet, tempora suscipit minus quo ipsa nulla nam, voluptatem, nemo aut veritatis saepe ipsum iure. At?",
     rating: 0
   },
   {
+    title: "Adventurous Day Trips",
     id: 3,
     name: "Bella",
-    location: "",
+    location: "Tanzania",
     duration: "",
-    description: "",
+    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo nihil officiis impedit praesentium. Nobis eveniet, tempora suscipit minus quo ipsa nulla nam, voluptatem, nemo aut veritatis saepe ipsum iure. At?",
     rating: 0
   },
   {
+    title: "Travel the many paths of Minecraft",
     id: 4,
     name: "James",
-    location: "",
+    location: "New England",
     duration: "",
-    description: "",
-    rating: 0
-  },
-  {
-    id: 5,
-    name: "Kaitlin",
-    location: "",
-    duration: "",
-    description: "",
+    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo nihil officiis impedit praesentium. Nobis eveniet, tempora suscipit minus quo ipsa nulla nam, voluptatem, nemo aut veritatis saepe ipsum iure. At?",
     rating: 0
   }
 ];
 
 export default data;
+
