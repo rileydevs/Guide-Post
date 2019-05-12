@@ -6,7 +6,7 @@ const PostList = props => {
     <div className="post-list">
       <h1>Hello from PostList</h1>
       {props.data.map(post => (
-        <Post key={post.id} post={post} />
+        <Post key={post._id} post={post} />
       ))}
     </div>
   );
