@@ -22,7 +22,6 @@ export default class Content extends React.Component {
       .then(response => response.json())
       .then(data => {
         this.setState({ data })
-        //console.log(data)
       })
       .catch(error => console.log("An error occured", error));
   }
